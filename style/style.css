@@ -6,7 +6,7 @@
 }
 
 header {
-    padding: 30px 240px;
+    padding: 40px 240px;
 
 }
 
@@ -103,10 +103,73 @@ nav li {
     list-style: none;
 }
 
+.card-title {
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.span {
+    color: rgb(224, 80, 205);
+}
+
+.card-img {
+    display: flex;
+    padding-left: 10px;
+    margin-top: 100px;
+}
+
+
+
+.image {
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    text-align: center;
+    margin: 20px;
+    margin-top: 100px;
+    color: azure;
+}
+
+.features {
+    margin-top: 100px;
+
+    padding: 240px;
+    align-items: center;
+    padding-left: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+.feature-content{
+    margin-bottom: 100px;
+}
+
+.section-description {
+    color: rgb(158, 160, 161);
+}
+
+.game-feature {
+    width: 400px;
+    position: relative;
+    bottom: 250px;
+    right: 150px;
+}
+
 /* responsive section */
 @media screen and (max-width:576) {
-    .banner{
+    .banner {
         grid-template-columns: auto;
     }
-    
+
 }

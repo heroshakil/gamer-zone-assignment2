@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Work+Sans:wght@600;700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    padding: 30px 240px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(12, 12, 34);
+}
+
+.nav-title>span {
+    color: rgb(229, 108, 240);
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(26, 90, 146);
+    cursor: pointer;
+
+}
+
+/* header section */
+.header {
+    background-color: rgb(247, 247, 245);
+
+}
+
+.banner {
+
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.btn-primary {
+    border-radius: 10px;
+    background: rgb(229, 108, 240);
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 15px;
+}
+
+.btn-primary2 {
+    border-radius: 10px;
+    background: rgb(115, 192, 236);
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 15px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: rgb(43, 37, 124);
+    margin: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    color: rgb(229, 90, 241);
+    font-style: normal;
+
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner-content li {
+    font-size: 20px;
+    color: rgb(58, 56, 56);
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+/* responsive section */
+@media screen and (max-width:576) {
+    .banner{
+        grid-template-columns: auto;
+    }
+    
+}
